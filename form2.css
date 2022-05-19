@@ -1,0 +1,21 @@
+body {
+    background: linear-gradient(-45deg, #47e217,  #17e2a8,  #175be2);
+    background-size: cover;
+    animation: gradient 15s ease infinite;
+    height: fit-content;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.insert{
+    border-bottom: #47e217;
+}
